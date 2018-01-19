@@ -106,9 +106,11 @@ endif()
 add_executable(lens
     # Include files
     include/lens/common.h
+    include/lens/subscreen.h
 
     # Implementation files
     src/main.cpp
+    src/subscreen.cpp
 )
 
 #OPENEXR_INCLUDE_DIRS
