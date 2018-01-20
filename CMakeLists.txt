@@ -107,6 +107,7 @@ add_executable(lens
     # Include files
     include/lens/common.h
     include/lens/subscreen.h
+    include/lens/spline.h
 
     # Implementation files
     src/main.cpp
